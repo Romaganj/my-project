@@ -1,0 +1,16 @@
+git init
+git config --global user.name "Name"
+git config --global user.email "email"
+echo "*.sass" > .gitignore
+echo "bin/" >> .gitignore
+echo "admin/" >> .gitignore
+echo "config/" >> .gitignore
+
+
+git add . #добавляем все файлы в локальное хранилище
+git branch chat # создаем ветку chat
+git checkout chat # переходим в ветку chat
+mkdir blog # создаем папку blog
+cd blog # переходим в созданую папку
+echo "" > index.js #создаем два файла
+echo "" > index.html
