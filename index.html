@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Home Work</title>
+</head>
+<body>
+    <center><h1><b>Mini Web Page</b></h1></center>
+
+    <table>
+        <tr>
+            <td width="40%">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Leopard_2_A7.JPG" alt="Leopard 2" width="100%">
+            </td>
+            <td>
+                <h2><b>Image <mark>informations</mark>:</b></h2>
+                <hr align="left" width="25%">
+                <details>
+                    <summary>More</summary>
+                    Detail informations about Image
+                </details>
+                <audio controls>
+                    <source src="" type="audio/ogg; codecs=vorbis">
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td width="40%">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pJszsXDImRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </td>
+            <td>
+                <h2>We are the best because:</h2>
+                <ul><strong>
+                    <li>cool <i><a href="">prices</a></i>;</li>
+                    <li>huge choice;</li>
+                    <li>good specialists;</li>
+                </strong></ul>
+            </td>
+        </tr>
+
+    </table>
+    <h1>Registration:</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="form-name"><b>Имя</b></label>
+        <input type="text" id="form-name" name="name" placeholder="Enter name"><br>
+        <label for="form-email"><b>Email</b></label>
+        <input type="email" id="form-email" name="email" placeholder="Enter email"><br>
+        <label for="form-pass"><b>Password</b></label>
+        <input type="password" id="form-pass" name="pass" placeholder="Enter password"><br>
+        <label for="form-pass"><b>User Photo</b></label>
+        <input type="file" id="form-photo" name="photo"><br>
+        <select name="experience" >
+            <option selected disabled hidden>Select experience</option>
+            <option value="one">1 year</option>
+            <option value="two">1-3 tear</option>
+            <option value="three">more 3 year</option>
+        </select>
+        <br>
+        <select name="language">
+            <option selected disabled>Select leng</option>
+            <option value="Java">Java</option>
+            <option value="Kotlin">Kotlin</option>
+            <option value="Python">Python</option>
+        </select>
+        <br>
+        <input type="checkbox"><b>User Agreement</b><br>
+        <button type="submit" name="button">Send</button>
+        <input type="reset" name="button" value="Clear">
+    </form>
+
+
+    
+</body>
+</html>
